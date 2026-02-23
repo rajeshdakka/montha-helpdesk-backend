@@ -1,6 +1,5 @@
 Flask
 gunicorn
-mysql-connector-python
 flask-bcrypt
 python-dotenv
 PyJWT
