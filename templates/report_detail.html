@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Report Details</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+<!-- Header -->
+<div class="reports-header">
+    <h2>📝 Report Details</h2>
+    <a href="/reports" class="logout-btn">⬅ Back</a>
+</div>
+
+<!-- Card -->
+<div class="report-card" style="max-width:600px; margin:20px auto;">
+
+    <h3 class="report-title">{{ report.issue }}</h3>
+
+    <p><b>Name:</b> {{ report.name }}</p>
+    <p><b>Location:</b> {{ report.location }}</p>
+    <p><b>Status:</b> {{ report.status }}</p>
+    <p><b>Created:</b> {{ report.created_at }}</p>
+    <p><b>Assigned To:</b> {{ report.assigned_to or "Not Assigned" }}</p>
+    <p><b>Mobile:</b> {{ report.mobile }}</p>
+
+    <!-- Call Button -->
+    <a href="tel:{{ report.mobile }}" class="call-btn">
+        📞 Call Now
+    </a>
+
+    <!-- Admin Controls -->
+    {% if request.role == "admin" %}
+    <form action="/report/{{ report.id }}/status" method="POST" style="margin-top:15px;">
+        <button name="status" value="in progress">🚧 Start Work</button>
+        <button name="status" value="resolved">✅ Mark Resolved</button>
+    </form>
+    {% endif %}
+
+    {% if request.role == "admin" %}
+<form action="/report/{{ report.id }}/assign" method="POST" style="margin-top:10px;">
+    
+    <input type="text" name="assigned_to" placeholder="Officer name" required>
+    <button type="submit">Assign Officer</button>
+
+</form>
+{% endif %}
+
+
+</div>
+
+</body>
+</html>

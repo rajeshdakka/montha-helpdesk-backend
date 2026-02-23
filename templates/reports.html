@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reports Dashboard</title>
+
+    <!-- main stylesheet -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+<!-- Top Header -->
+<div class="reports-header">
+    <h2>📋 Reports Dashboard</h2>
+    <a href="/logout" class="logout-btn">Logout</a>
+</div>
+
+<!-- Reports Grid -->
+<div class="reports-container">
+
+    {% for r in reports %}
+    <a href="/report/{{ r.id }}" class="card-link">
+        <div class="report-card">
+
+            <div class="report-title">
+                {{ r.issue }}
+            </div>
+
+            <p><b>Name:</b> {{ r.name }}</p>
+            <p><b>Location:</b> {{ r.location }}</p>
+            <p><b>Mobile:</b> {{ r.mobile }}</p>
+
+            <p><b>Status:</b> {{ r.status }}</p>
+             
+            <p>
+            <b>Priority:</b> 
+            {% if r.priority == "high" %}
+                <span style="color:red; font-weight:bold;">🔴 High</span>
+            {% elif r.priority == "medium" %}
+                <span style="color:orange; font-weight:bold;">🟠 Medium</span>
+            {% else %}
+                <span style="color:green; font-weight:bold;">🟢 Low</span>
+            {% endif %}
+            </p>
+
+            <div class="report-date">
+                Created: {{ r.created_at }}
+            </div>
+
+        </div>
+    </a>
+    {% endfor %}
+
+</div>
+
+</body>
+</html>

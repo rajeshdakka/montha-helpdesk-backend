@@ -1,0 +1,245 @@
+PHASE 1: NumPy Foundations (ABSOLUTE BEGINNER)1️⃣ Introduction
+
+What is NumPy
+
+Why NumPy is faster than Python lists
+
+NumPy use cases (Data Science, ML, AI)
+
+2️⃣ NumPy Arrays
+
+Creating arrays using np.array()
+
+1D, 2D, 3D arrays
+
+Array vs List (deep comparison)
+
+3️⃣ Array Properties (VERY IMPORTANT)
+
+ndim
+
+shape
+
+size
+
+dtype
+
+Type casting (astype)
+
+🟢 PHASE 2: Array Creation Techniques
+4️⃣ Built-in Array Creation
+
+zeros
+
+ones
+
+empty
+
+full
+
+arange
+
+linspace
+
+eye, identity
+
+5️⃣ Random Module
+
+rand, randn
+
+randint
+
+uniform
+
+normal
+
+seed
+
+🟢 PHASE 3: Indexing, Slicing & Iteration
+6️⃣ Indexing & Slicing
+
+Basic indexing
+
+Negative indexing
+
+Slicing rules
+
+Step slicing
+
+7️⃣ Advanced Indexing
+
+Fancy indexing
+
+Boolean indexing
+
+Conditional filtering
+
+8️⃣ Iterating Arrays
+
+for loops
+
+nditer
+
+ndenumerate
+
+🟢 PHASE 4: Shape Manipulation (CORE SKILL)
+9️⃣ Reshaping Arrays
+
+reshape
+
+flatten
+
+ravel
+
+resize
+
+🔟 Joining & Splitting
+
+concatenate
+
+vstack, hstack
+
+split, hsplit, vsplit
+
+🟢 PHASE 5: Mathematical Operations
+1️⃣1️⃣ Arithmetic Operations
+
+Element-wise operations
+
+Scalar operations
+
+Power operations
+
+1️⃣2️⃣ Universal Functions (ufuncs)
+
+sqrt
+
+exp
+
+log
+
+abs
+
+round
+
+Trigonometric functions
+
+🟢 PHASE 6: Broadcasting (🔥 VERY IMPORTANT)
+1️⃣3️⃣ Broadcasting Rules
+
+Concept & intuition
+
+Shape compatibility
+
+Practical examples
+
+Common mistakes
+
+🟢 PHASE 7: Aggregations & Statistics
+1️⃣4️⃣ Aggregation Functions
+
+sum
+
+mean
+
+median
+
+min, max
+
+argmin, argmax
+
+std, var
+
+1️⃣5️⃣ Axis Concept (CRITICAL)
+
+Row-wise vs column-wise operations
+
+axis=0 vs axis=1
+
+🟢 PHASE 8: Sorting, Searching & Logic
+1️⃣6️⃣ Sorting
+
+sort
+
+argsort
+
+Sorting by rows/columns
+
+1️⃣7️⃣ Searching
+
+where
+
+nonzero
+
+any, all
+
+isin
+
+🟢 PHASE 9: Copy vs View (BUG-CREATING TOPIC)
+1️⃣8️⃣ Memory Behavior
+
+Copy vs View
+
+Shallow vs Deep copy
+
+When changes affect original array
+
+🟢 PHASE 10: Linear Algebra (ML FOUNDATION)
+1️⃣9️⃣ Linear Algebra Basics
+
+Dot product
+
+Matrix multiplication
+
+Transpose
+
+Determinant
+
+Inverse
+
+Eigenvalues
+
+🟢 PHASE 11: File Handling & Interoperability
+2️⃣0️⃣ File Operations
+
+loadtxt
+
+savetxt
+
+.npy, .npz files
+
+2️⃣1️⃣ NumPy with Pandas
+
+NumPy → Pandas
+
+Pandas → NumPy
+
+Why Pandas depends on NumPy
+
+🟢 PHASE 12: Performance & Best Practices
+2️⃣2️⃣ Performance Optimization
+
+Vectorization vs loops
+
+Memory efficiency
+
+Choosing correct dtype
+
+🟢 PHASE 13: Practice & Real-World Readiness
+2️⃣3️⃣ Practice Problems
+
+Array manipulation problems
+
+Mathematical problems
+
+Interview-style questions
+
+2️⃣4️⃣ ML Readiness
+
+Feature arrays
+
+Labels
+
+Data preprocessing
+
+Normalization

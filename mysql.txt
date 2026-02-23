@@ -1,0 +1,311 @@
+🔥 45-DAY MySQL MASTERY PLAN (Zero → Confident)
+🧱 PHASE 1: STRONG FOUNDATION (Days 1–10)
+
+👉 Goal: No fear of SQL, clean basics
+
+Day 1
+
+What is DB, Table, Row, Column
+
+MySQL vs SQL
+
+Create database
+
+CREATE DATABASE college;
+USE college;
+
+Day 2
+
+Data types (INT, VARCHAR, DATE)
+
+Create table
+
+DESC table
+
+Day 3
+
+INSERT INTO
+
+Insert multiple rows
+
+SELECT *
+
+Day 4
+
+SELECT with WHERE
+
+Conditions (=, >, <, AND, OR)
+
+Day 5
+
+ORDER BY
+
+LIMIT
+
+DISTINCT
+
+Day 6
+
+UPDATE (single row)
+
+Importance of WHERE
+
+Safe update concept (intro)
+
+Day 7
+
+DELETE
+
+DELETE vs TRUNCATE vs DROP
+
+Day 8
+
+PRIMARY KEY
+
+AUTO_INCREMENT
+
+Day 9
+
+Practice day (rewrite all queries)
+
+Make mistakes intentionally
+
+Day 10
+
+Mini task:
+
+Create students table
+
+Insert 10 records
+
+Update & delete safely
+
+✅ After Day 10:
+You are comfortable, not scared.
+
+🧠 PHASE 2: STRUCTURE & CONTROL (Days 11–20)
+
+👉 Goal: Think like a database designer
+
+Day 11
+
+ALTER TABLE
+
+ADD COLUMN
+
+Day 12
+
+DROP COLUMN
+
+MODIFY
+
+Day 13
+
+CHANGE
+
+MODIFY vs CHANGE (very important)
+
+Day 14
+
+Constraints:
+
+NOT NULL
+
+UNIQUE
+
+DEFAULT
+
+Day 15
+
+FOREIGN KEY
+
+Parent–child relationship
+
+Day 16
+
+Create departments table
+
+Link with students
+
+Day 17
+
+Normalize data (your exact case)
+
+Why redundancy is bad
+
+Day 18
+
+JOIN → INNER JOIN
+
+Day 19
+
+LEFT JOIN
+
+Difference from INNER JOIN
+
+Day 20
+
+Practice:
+
+Student–Department queries
+
+Fetch name, dept, hod
+
+✅ After Day 20:
+You are already ahead of many freshers.
+
+📊 PHASE 3: THINKING IN QUERIES (Days 21–30)
+
+👉 Goal: Handle real interview & project queries
+
+Day 21
+
+Aggregate functions:
+
+COUNT, SUM, AVG, MIN, MAX
+
+Day 22
+
+GROUP BY
+
+Day 23
+
+HAVING
+
+WHERE vs HAVING (classic confusion)
+
+Day 24
+
+Subqueries (simple)
+
+Day 25
+
+Subqueries in WHERE
+
+Day 26
+
+Subqueries in FROM
+
+Day 27
+
+UPDATE with subquery
+
+Day 28
+
+DELETE with subquery
+
+Day 29
+
+Real problems:
+
+Highest marks per dept
+
+Students above average
+
+Day 30
+
+Practice + revision
+
+✅ After Day 30:
+You are interview-ready for SQL basics.
+
+⚙️ PHASE 4: PROFESSIONAL LEVEL (Days 31–40)
+
+👉 Goal: Job & project confidence
+
+Day 31
+
+Indexes
+
+Why indexes exist
+
+Day 32
+
+Create & drop index
+
+Performance intuition
+
+Day 33
+
+Transactions:
+
+COMMIT
+
+ROLLBACK
+
+Day 34
+
+ACID properties (conceptual)
+
+Day 35
+
+Views
+
+CREATE VIEW student_view AS ...
+
+Day 36
+
+Stored procedures (basic)
+
+Day 37
+
+Error handling mindset
+
+Debugging queries
+
+Day 38
+
+MySQL + Flask usage
+
+Writing queries for backend
+
+Day 39
+
+Project-style queries
+
+Day 40
+
+Revision of entire SQL
+
+✅ After Day 40:
+You can use MySQL professionally, not just academically.
+
+🏆 PHASE 5: MASTERY POLISH (Days 41–45)
+
+👉 Goal: Confidence + clarity
+
+Day 41
+
+Rewrite all JOIN queries from memory
+
+Day 42
+
+Rewrite GROUP BY + HAVING problems
+
+Day 43
+
+Interview questions (theory + SQL)
+
+Day 44
+
+Design a full DB:
+
+Students
+
+Departments
+
+Marks
+
+Users
+
+Day 45
+
+Final test:
+
+No notes
+
+Write queries cleanly
+
+Explain WHY
+
+🎯 This is mastery, not memorization.

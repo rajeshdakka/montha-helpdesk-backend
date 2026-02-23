@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Montha Help Desk</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body class="home-bg">
+
+<div class="home-container">
+    <h1>🚨 Montha Help Desk</h1>
+    <p>Report and manage disaster-related issues</p>
+
+    {% if not logged_in %}
+        <form action="/login" method="post">
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+
+        <a href="/register-form">
+            <button>Register</button>
+        </a>
+    {% else %}
+        <a href="/report-form"><button>Submit Report</button></a>
+        <a href="/reports"><button>View Reports</button></a>
+        <a href="/logout"><button>Logout</button></a>
+    {% endif %}
+</div>
+
+</body>
+</html>

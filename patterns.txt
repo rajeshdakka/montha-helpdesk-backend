@@ -1,0 +1,28 @@
+# Online Python compiler (interpreter) to run Python online.
+# Write Python 3 code in this online editor and run it.
+def pyramid(n):
+    for m in range(n):
+        for y in range(n-m-1):
+            print(" ",end = "")
+        for o in range(2*m+1):
+            print("*",end = "")
+        for p in range(n-m-1):
+            print(" ",end = "")
+        print()
+    
+    for i in range(1 ,n):
+        for j in range(i):
+            print(" ",end = "")
+        for k in range(2*(n-i)-1):
+            print("*",end = "")
+        for l in range(i):
+            print(" ",end = "")
+        print()
+            
+        
+
+    
+    
+    
+        
+pyramid(3)

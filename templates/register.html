@@ -1,30 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Register - Montha Helpdesk</title>
+    <title>Register</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
-<body>
-    <h2>User Registration</h2>
+
+<body class="login-bg">  <!-- reuse your background -->
+
+<div class="login-box">
+    <h2>Create Account</h2>
+
     <form action="/register" method="POST">
-        <label>Name:</label><br>
-        <input type="text" name="name" required><br><br>
+        <input type="text" name="name" placeholder="Full Name" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <input type="text" name="mobile" placeholder="Mobile Number" required>
 
-        <label>Email:</label><br>
-        <input type="email" name="email" required><br><br>
-
-        <label>Password:</label><br>
-        <input type="password" name="password" required><br><br>
-
-        <label>Role:</label><br>
-        <select name="role" required style="width:100%;">
+        <!-- Role -->
+        <select name="role" style="width:95%; padding:10px; margin:10px 0;">
             <option value="user">User</option>
-            <option value="staff">Staff</option>
             <option value="admin">Admin</option>
-</select><br><br>
-
+        </select>
 
         <button type="submit">Register</button>
     </form>
+
+    <p style="margin-top:15px;">
+        Already have an account?
+        <a href="/login-form">Login</a>
+    </p>
+</div>
+
 </body>
 </html>
